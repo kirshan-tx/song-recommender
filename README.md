@@ -24,7 +24,7 @@ I'll be using these audio features to find the highest correlation with my **fav
 - 
 
 ### Dependent variable
-The variable 'favourite' will be the prediction variable. I will assign the songs that have more than 9 listens with 1 (favourite) and less than 9 listens as 0 (not favourite). 
+The variable 'favourite' will be the prediction variable. I will assign the songs that have more than or equal to 9 listens with 1 (favourite) and less than 9 listens as 0 (not favourite). 
 A sharp drop off at 9 listens of a song on the histogram clearly divides the songs that I deliberately listen to and the ones that I clicked on by accident or when I was trying to find new music.
 
 <img src="images/why9.PNG" height="300">
