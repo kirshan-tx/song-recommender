@@ -1,13 +1,13 @@
 # Spotify Song Recommender
 Building a song recommender based off the spotify song features of my listening history.
 
-According to Spotify's Wrapped for 2020, I was in the **top 0.5 %** of J. Cole's listeners. #realcoleworld. However, spotify has a plethora of songs by millions of artists available and I feel like I am missing out and should explore new songs. I created a classifier to predict if I would like a song or not.
+According to Spotify's Wrapped for 2020, I was in the top 0.5 % of J. Cole's listeners. #realcoleworld. However, spotify has a plethora of songs by millions of artists available and I feel like I am missing out and should explore new songs. So I decided to create a **song recommender to help me classify whether I would like the new song or not**.
 
 ## Data
 - StreamingHistory.json - personal listening history provided by spotify 
 - [tracks.csv](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=tracks.csv) - dataset containing audio features of around 600k songs from kaggle
 
-### spotipy
+### Spotipy
 [Spotipy](https://spotipy.readthedocs.io) - a lightweight python library for the Spotify Web API - was used to obtain audio features of missing songs.  
 
 ## Spotify Song Features
@@ -18,13 +18,20 @@ Spotify gives all songs several audio features such as: *danceability, energy, l
 
 I'll be using these audio features to find the highest correlation with my **favourite** songs.  
 
-### Dependent variable
-The variable 'favourite' will be the prediction variable. I will assign the songs that have more than or equal to 9 listens with 1 (favourite) and less than 9 listens as 0 (not favourite). 
-A sharp drop off at 9 listens of a song on the histogram clearly divides the songs that I deliberately listen to and the ones that I clicked on by accident or when I was trying to find new music.
+## Dependent variable
+The variable 'favourite' will be the prediction variable. I will assign the songs that have **more than or equal to 9 listens** with 1 (favourite) and less than 9 listens as 0 (not favourite). 
+When I plotted the number of times I've listen to a specific song on a histogram, a sharp drop off at 9 listens clearly divides the songs that I deliberately listen to and the ones that I clicked on by accident or when I was trying to find new music.
 
 <img src="images/why9.PNG" height="300">
 
-## Goals
+## Objective
+To create a song recommender using my Spotify listening history, by comapring Decision Tree and Random Forest classifier models and testing the models' accuracy using F1 score.
+
+## Process
+1. Data Cleaning / Exploration
+2. Feature Selection and Oversampling to balance classes
+3. Model Selection with Cross-validation and Hyperparameter Optimization
+4. Predictionof Songs
 
 
 ## Conclusion
