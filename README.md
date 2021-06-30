@@ -8,7 +8,7 @@ According to Spotify's Wrapped for 2020, I was in the top 0.5 % of J. Cole's lis
 - [tracks.csv](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=tracks.csv) - dataset containing audio features of around 600k songs from kaggle
 
 ### Spotipy
-[Spotipy](https://spotipy.readthedocs.io) - a lightweight python library for the Spotify Web API - was used to obtain audio features of missing songs.  
+[Spotipy](https://spotipy.readthedocs.io) - a lightweight python library for the Spotify Web API - was used to obtain audio features of missing songs. This was done in the [missing-features](missing-features.ipynb) notebook.  
 
 ## Spotify Song Features
 Spotify gives all songs several audio features such as: *danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence and tempo.*
