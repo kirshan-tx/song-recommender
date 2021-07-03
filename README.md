@@ -35,6 +35,13 @@ To create a song recommender using my Spotify listening history, by comapring De
 
 
 ## Conclusion
+With the Decision Tree Classifier, I got a F1 score of 98% while the Random Forest Classifier got a F1 score of 99%; however, it took significantly more time to hyperparameterize and train the Random Forest.
+
+For 'favourite' on the correlation heatmap:
+- positive correlation: **danceability** and **loudness**
+- negative correlation: **acousticness**, **instrumentalness** and **valence**
+
+Which indicates that I like loud, easy-to-dance-to 'negative' songs with an emphasis on vocals.
 
 ## Credits
 [isacmlee's song recommender](https://github.com/isacmlee/song-recommender.git)
