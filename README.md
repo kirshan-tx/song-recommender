@@ -43,7 +43,7 @@ For 'favourite' on the correlation heatmap:
 
 Which indicates that I like loud, easy-to-dance-to 'negative' songs with an emphasis on vocals.
 
-CSV file of around 9k song recommendations. Which can be automatically made into a playlist using python script. 
+CSV file of around 9k song recommendations. Which can be automatically made into a playlist using a python script. 
 
 <img src="images/recommendations.PNG" height="500">
 
